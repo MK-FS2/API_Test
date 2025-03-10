@@ -1,0 +1,141 @@
+/* Extra Small Devices: <576px */
+@media (max-width: 575.98px)
+{
+  .go
+  {
+    display: none !important;
+  }
+  .li 
+  {
+    display: block !important;
+  }
+  .drop
+  {
+    display: flex !important;
+  }
+  .top_day
+  {
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+  }
+  .last_day
+  {
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+/* Small Devices: >=576px */
+@media (min-width: 576px) 
+{
+ .go
+ {
+display: none !important;
+ }
+ .li 
+ {
+   display: block !important;
+ }
+ .drop
+ {
+   display: flex !important;
+ }
+ .top_day
+  {
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+  }
+  .last_day
+  {
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius: 15px;
+  }
+
+}
+
+/* Medium Devices: >=768px */
+@media (min-width: 768px) 
+{
+  .go 
+  {
+    display: none !important;
+  }
+  .li 
+  {
+    display: block !important;
+  }
+  .drop
+  {
+    display:flex !important;
+  }
+  .top_day
+  {
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+  }
+  .last_day
+  {
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius: 15px;
+  }
+
+}
+
+/* Large Devices: >=992px */
+@media (min-width: 992px) 
+{
+  .go 
+  {
+    display: flex !important;
+  }
+  .li 
+  {
+    display: none !important;
+  }
+  .drop
+  {
+    display: none !important;
+  }
+  .top_day
+  {
+    border-top-right-radius: 0px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+  }
+  .last_day
+  {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+}
+
+/* Extra Large Devices: >=1200px */
+@media (min-width: 1200px) 
+{
+  .go 
+  {
+    display: flex !important;
+  }
+  .li 
+  {
+    display: none !important;
+  }
+  .drop
+  {
+    display: none !important;
+  }
+  .top_day
+  {
+    border-top-right-radius: 0px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+  }
+  .last_day
+  {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+}

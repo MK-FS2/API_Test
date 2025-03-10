@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: rgb(30, 32, 43);
+}
+.fg {
+    height: 0;
+    top: -100px;
+    transition: height 1s ease-in-out, top 10s ease-in-out; /* Combined transitions */
+    position: relative;
+    overflow: hidden;
+}
+
+.rf {
+    height: 285px;
+    top: 0;
+    transition: height 1s ease-in-out, top 0.01s ease-in-out; 
+    position: relative;
+}
+.ha {
+    border: 2px solid rgba(0, 191, 255, 1); 
+    border-radius: 20px;
+    transition: border-color 0.3s; 
+    color: rgba(0, 191, 255, 1);
+}
+.na {
+    padding: 2px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    transition: color 0.3s; 
+    box-sizing: border-box; 
+    border: 2px solid transparent; 
+    border-radius: 20px;
+}
+.na:hover {
+    color: rgba(0, 191, 255, 1);
+    border-color: rgba(0, 191, 255, 1); 
+    
+}
+.drop
+{
+border-radius: 10px;
+background-color:  rgb(58, 61, 74);
+}
+.drop_link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid;
+    border-bottom-color: rgba(255, 255, 255, 0.396);
+}
+.drop_a
+{
+    color: white;
+}
+.back_img
+{
+    background-image: url("/photos/banner.png");
+    background-position: center;
+   background-size: cover;
+}
+.inp
+{
+    border-radius: 900px;
+    border: none;
+    padding: 13px;
+    background-color:rgb(41, 43, 56);
+    color: white;
+    padding-left: 20px;
+    font-size: medium;
+}
+.inp:focus
+{
+    outline: none; 
+    border: none;
+}
+.f_btn
+{
+    position: absolute;
+    border: none;
+    top: 7px;
+    padding: 6px;
+    background-color:rgb(0, 154, 216);
+    border-radius: 56789px;
+    right: 10px;
+}
